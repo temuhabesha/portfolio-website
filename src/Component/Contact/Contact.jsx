@@ -40,7 +40,7 @@ const Contact = () => {
       <div className="contact-section">
         <div className="contact-left">
             <h1>Let's talk</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellendus officiis nesciunt et ipsum dicta excepturi temporibus. Aliquam nobis voluptate numquam cupiditate perspiciatis ex, dolorem doloremque molestias ea commodi reprehenderit.</p>
+            <p>if you have any client which you want full stack web developer you can get by the following social media</p>
             <div className="contact-details">
                 <div className="contact-detail">
                    <img src={mailicon} alt="" /><p>temesgenwondim77@gmail.com</p>
