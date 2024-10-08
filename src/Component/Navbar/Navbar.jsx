@@ -25,11 +25,11 @@ const Closemenu=()=>{
       <img src={menu_open} onClick={openMenu} className='nav-mob-open' alt="" />
       <ul ref={menuRef} className=' nav-menu'>
         <img src={menu_close} onClick={Closemenu} className='nav-mob-close' alt="" />
-        <li><Anchorlink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></Anchorlink>{menu==="home"?<img src={underlineimages} alt=''/>:<></>}</li>
-        <li><Anchorlink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></Anchorlink>{menu==="about"?<img src={underlineimages} alt=''/>:<></>}</li>
-        <li><Anchorlink className='anchor-link' offset={50} href='#services'><p onClick={()=>setMenu("services")}>Services</p></Anchorlink>{menu==="services"?<img src={underlineimages} alt=''/>:<></>}</li>
-        <li><Anchorlink className='anchor-link' offset={50} href='#portfolio'><p onClick={()=>setMenu("portfolio")}>Portfolio</p></Anchorlink>{menu==="portfolio"?<img src={underlineimages} alt=''/>:<></>}</li>
-        <li><Anchorlink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></Anchorlink>{menu==="contact"?<img src={underlineimages} alt=''/>:<></>}</li>
+        <li className={menu==="home"?"active":""}><Anchorlink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></Anchorlink></li>
+        <li className={menu==="about"?"active":""}><Anchorlink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></Anchorlink></li>
+        <li className={menu==="services"?"active":""}><Anchorlink className='anchor-link' offset={50} href='#services'><p onClick={()=>setMenu("services")}>Services</p></Anchorlink></li>
+        <li className={menu==="portfolio"?"active":""}><Anchorlink className='anchor-link' offset={50} href='#portfolio'><p onClick={()=>setMenu("portfolio")}>Portfolio</p></Anchorlink></li>
+        <li className={menu==="contact"?"active":""}><Anchorlink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></Anchorlink></li>
       </ul>
       <div className="nav-connect"><Anchorlink className='anchor-link' offset={50} href='#contact'>Connect With Me</Anchorlink></div>
     </div>
