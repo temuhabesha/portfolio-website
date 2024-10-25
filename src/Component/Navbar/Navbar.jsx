@@ -2,7 +2,7 @@ import React, { useState, useRef} from 'react'
 import './Navbar.css'
 import Anchorlink from 'react-anchor-link-smooth-scroll'
 import logo from '../../assets/image/tom-high-resolution-logo-white.png'
-import underlineimages from '../../assets/image/icons8-underline-30.png'
+// import underlineimages from '../../assets/image/icons8-underline-30.png'
 import menu_open from '../../assets/icons/icons8-menu-50.png'
 import menu_close from '../../assets/icons/icons8-close-window-50.png'
 

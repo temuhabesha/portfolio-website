@@ -4,7 +4,7 @@ const mywork=[
     {
         w_no:1,
         w_name:"web development",
-        w_image:project1_img
+        w_image:"https://tom02.netlify.app/"
     },
     {
         w_no:2,
