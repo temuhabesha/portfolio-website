@@ -1,10 +1,11 @@
 import project1_img from '../../assets/image/TOM.png'
+import weatherconditioner from '../../assets/image/WTconditioner.png'
 
 const mywork=[
     {
         w_no:1,
         w_name:"web development",
-        w_image:"https://tom02.netlify.app/"
+        w_image:weatherconditioner
     },
     {
         w_no:2,

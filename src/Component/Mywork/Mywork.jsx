@@ -13,7 +13,7 @@ const Mywork = () => {
         </div>
         <div className="mywork-container">
           {mywork.map((work,index)=>{
-            return <img key={index} src={work.w_image} alt=''/>
+            return <a href="https://tweatherconditioner.netlify.app/"><img key={index} src={work.w_image} alt=''/></a>
           })}
         </div>
         <div className="myworkshowmore">
