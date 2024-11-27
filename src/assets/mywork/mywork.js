@@ -1,6 +1,7 @@
 import project1_img from '../../assets/image/TOM.png'
 import weatherconditioner from '../../assets/image/WTconditioner.png'
 import youbebanner from '../../assets/image/youtubebanner.png'
+import EcommerseBnner from '../../assets/image/EcommerceBnner.png'
 
 const mywork=[
     {
@@ -18,8 +19,8 @@ const mywork=[
     {
         w_no:3,
         w_name:"web development",
-        w_image:project1_img,
-        w_link:"https://tweatherconditioner.netlify.app/"
+        w_image:EcommerseBnner,
+        w_link:"https://tecommerceapp.netlify.app/"
     },
     {
         w_no:4,
@@ -31,13 +32,13 @@ const mywork=[
         w_no:5,
         w_name:"web development",
         w_image:project1_img,
-        w_link:"https://tweatherconditioner.netlify.app/"
+        w_link:"https://tyoutube21.netlify.app/"
     },
     {
         w_no:6,
         w_name:"web development",
         w_image:project1_img,
-        w_link:"https://tweatherconditioner.netlify.app/"
+        w_link:"https://tecommerceapp.netlify.app/"
     }
 ]
 export default mywork;
