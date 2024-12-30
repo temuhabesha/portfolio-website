@@ -19,6 +19,9 @@
     gap: 80px;
     margin-bottom: 80px;
 }
+.about-left img{
+    border-radius: 50px;
+}
 .about-right{
     display: flex;
     flex-direction: column;
